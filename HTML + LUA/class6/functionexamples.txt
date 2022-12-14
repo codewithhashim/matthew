@@ -1,0 +1,20 @@
+if a player touches the wall 
+	in that case reduce the health by 10%;
+
+
+	function reduceHealth() 
+	-- hello some code here please
+	end
+	
+
+	if(userPosition == 0)
+	reduceHealth()
+	end;
+
+	if(userHealth == 0)
+	kill()
+	end;
+	
+	function kill()
+	-- code here
+	end

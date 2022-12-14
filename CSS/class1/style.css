@@ -1,0 +1,21 @@
+/* selector */
+p {
+  color: red;
+  font-size: 15px;
+}
+
+/* 
+whenever you write a property:value pair make sure that you use a ;
+ */
+section {
+    /* propert -> 2px => width, solid => style, green => color */
+    /* color by name */
+    border: 2px double green;
+    /* color by hex code 
+     #rrggbb
+    */
+    border: 2px double hsla(120, 100%, 25%, 0.72);
+
+    width: 400px;
+    height: 300px;
+}

@@ -1,0 +1,29 @@
+Comments => instructions, solving  etc
+
+Identifier => As a dev you will define
+
+
+keywords => defined by the programming language
+
+Whitespace => space
+
+Variable => storage for some kind of data example: let data = "hello world"
+
+
+Escape sequence => \n (new lin)
+
+
+Data types => different types of data
+    -Number
+    -String
+    -Characters
+    -Float (34.4)
+    -Boolean (true , false)
+
+Loops => (used to iterate iver a certain block of data)
+
+Conditions => (if the user hit the up arrow twice then in that case the character should jump twice)
+
+Arrays => (local character = ["color", "speed", 12] )
+
+
