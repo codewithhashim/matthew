@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+/* tag selector */
+p {
+    /* color is a property that will be applied to the color of text */
+    color: maroon;
+    font-size: 30px;
+    /* 100 - 900 */
+    font-weight: 800;
+    /* font-style: italic; */
+    /* font-variant: small-caps ; */
+    text-transform: uppercase;
+    /* font-  OR text- */
+    /* text-shadow: 2px 2px 5px #000; */
+    font-family: sans-serif;
+    /* Font family name that I want to render /cursive is a fallback font */
+    font-family: 'Lobster Two', cursive;
+
+}
+div {
+    font-weight: 100;
+}
