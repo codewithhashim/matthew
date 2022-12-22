@@ -1,13 +1,19 @@
 /* selector */
+ /* tag selector */
 p {
-  color: red;
+ 
   font-size: 15px;
+}
+/* id selector */
+#first-para {
+    color: red;
 }
 
 /* 
 whenever you write a property:value pair make sure that you use a ;
  */
-section {
+ /* class selector */
+.first-section {
     /* propert -> 2px => width, solid => style, green => color */
     /* color by name */
     border: 2px double green;
@@ -18,4 +24,10 @@ section {
 
     width: 400px;
     height: 300px;
+}
+
+
+/* class selector */
+.para {
+    font-size: 25px;
 }

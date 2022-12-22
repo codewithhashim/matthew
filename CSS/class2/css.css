@@ -1,0 +1,44 @@
+p {
+    /* color by name */
+    color: lightcoral!important;
+    /* color by hex code #rrggbb */
+    color: #0000ff;
+    /* color rgb(0-255)  */
+    color: rgb(0, 0, 255);
+
+    /* opacity in colors */
+    color: rgba(34, 44, 54, 0.161);
+    color: cyan;
+    color: #121;
+    color: rgb(0, 255, 150);
+    /* color: rgba(10, 5, 25, 0.458); */
+    color: rgba(23, 56, 78, .5);
+    /* color: transparent; */
+}
+/* Box model */ 
+
+div {
+    background-color: cyan;
+    width: 200px;
+    border: 2px solid coral;
+    border-top: 5px dotted red;
+    border-right: 5px dotted purple;
+    border-bottom: 5px dotted rgb(248, 255, 192);
+    border-left: 5px double darkblue;
+    /* padding creates the spacing inside of an element */
+    /*padding: 20px;*/
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: right;
+    /* padding-bottom: 40px; */
+    margin: 30px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+   /* margin-bottom: 50px; */
+   outline: 3px solid royalblue;
+   outline-offset: 10px;
+}
