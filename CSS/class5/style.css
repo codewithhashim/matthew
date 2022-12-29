@@ -1,0 +1,40 @@
+article {
+    position: relative;
+    border: 1px solid cornflowerblue;
+    /* border-top: 3px solid cornflowerblue; */
+    border-top-width: 4px;
+}
+
+.link1 {
+     /* position: relative; relative to its own position */
+    position: absolute; /* relative to its parent element */
+    right: 10px;
+    bottom: 10px;
+    
+}
+
+.three {
+    position: relative;
+    border: 1px solid red;
+    border-top-width: 3px;
+}
+.link2 { /* the parent element should be positoned relative to position the child element absolute*/
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.profile-card {
+    position: relative;
+    border: 5px solid  black;
+    width: 250px;
+    text-align: center;
+}
+.age {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: lightsalmon;
+    padding: 10px;
+    border-radius: 50%;
+}
+
