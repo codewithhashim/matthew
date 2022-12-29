@@ -19,4 +19,27 @@ p {
 }
 div {
     font-weight: 100;
+    background-color: bisque;
+    /* making it fixed (fixed unit) when we use px */
+    width: 600px;
+    /* relative unit */
+    width: 90%;
+    border: 2px solid maroon;
+    /* per cent 1/100 */
+}
+ul {
+    background-color: beige;
+    list-style-type: none;
+    padding: 0;
+}
+.listone {
+    background: gray;
+}
+/* state of the element CLASS PSEUDO SELECTOR */
+.listone:hover {
+    background: green;
+}
+/* a part of the element ELEMENT */
+.listone::first-letter {
+    font-size: 60px;
 }

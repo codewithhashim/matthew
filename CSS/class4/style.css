@@ -1,0 +1,64 @@
+body {
+    /* font-family: system-ui; */
+    accent-color: #9b5efb;
+}
+
+p {
+    color: #000;
+}
+
+/* pseudo element selector */
+p::after {
+    content: "🙈";
+}
+
+p::before {
+    /* content: "🙈"; */
+}
+p::first-letter {
+    font-size: 55px;
+    color: #9b5efb;
+}
+
+/* state of the element -> Pseudo class selectors */
+p:hover {
+    color: maroon;
+    font-size: 33px;
+}
+
+a:active {
+    font-size: 50px;
+    
+}
+a:visited {
+    background-color: lightgreen;
+}
+
+li {
+    color: green;
+}
+li::marker {
+    color: red;
+}
+/* tag selector */
+article {
+    /* float: right; */
+    /* float: left; */
+    /* float: none; */
+    float: inherit;
+    /* default position property
+    top, left, bottom, right
+    */
+    position: static;
+    /* relative */
+    position: relative;
+    top: 40px;
+    bottom: 40px;
+    left: 50px;
+    right: 60px;
+}
+a {
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
