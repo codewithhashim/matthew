@@ -1,0 +1,31 @@
+/* p {
+    color: red;
+    background-color: rgb(232, 223, 211);
+    position: relative;
+    top: 20px;
+} */
+
+div {
+    background-color: burlywood;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    /* right: 200px; */
+    /* height: 3000px; */
+}
+button 
+{
+    background-color: #1dbf73;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    /* position: relative;
+    right: -280px;
+    bottom: 65px; */
+    position: absolute;
+    /* position: sticky; */
+    /* position: fixed; */
+    top: 20px;
+    right: 20px;
+}
